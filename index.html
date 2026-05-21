@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Tienda</title>
 </head>
 <body>
-    
+    <header id="header-principal" class="header">
+        <div class="contenedor-header">
+            <h1 class="logo">Mi Tienda</h1>
+
+            <nav id="navegacion-principal" class="navegacion">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#productos" class="menu-link">Productos</a></li>
+                    <li class="menu-item"><a href="#contacto" class="menu-link">Contacto</a></li>
+                    <li class="menu-item"><a href="#nosotros" class="menu-link">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal" class="main">
+        <section id="productos" class="seccion-productos">
+            <h2 class="titulo-seccion">Productos</h2>
+
+            <div class="contenedor-productos">
+                <article class="producto" id="producto-1">
+                    <h3 class="producto-titulo">Producto 1</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 1.</p>
+                </article>
+
+                <article class="producto" id="producto-2">
+                    <h3 class="producto-titulo">Producto 2</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 2.</p>
+                </article>
+
+                <article class="producto" id="producto-3">
+                    <h3 class="producto-titulo">Producto 3</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 3.</p>
+                </article>
+
+                <article class="producto" id="producto-4">
+                    <h3 class="producto-titulo">Producto 4</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 4.</p>
+                </article>
+
+                <article class="producto" id="producto-5">
+                    <h3 class="producto-titulo">Producto 5</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 5.</p>
+                </article>
+
+                <article class="producto" id="producto-6">
+                    <h3 class="producto-titulo">Producto 6</h3>
+                    <p class="producto-descripcion">Descripción breve del producto 6.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="nosotros" class="seccion-nosotros">
+            <h2 class="titulo-seccion">Nosotros</h2>
+            <p class="texto-nosotros">
+                Aquí irá la información de la empresa o del proyecto.
+            </p>
+        </section>
+
+        <section id="contacto" class="seccion-contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <p class="texto-contacto">
+                Aquí irá la información de contacto.
+            </p>
+        </section>
+    </main>
+
+    <footer id="footer-principal" class="footer">
+        <div class="contenedor-footer">
+            <p class="texto-footer">© 2026 Mi Tienda. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
