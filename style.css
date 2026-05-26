@@ -65,7 +65,17 @@
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   padding: 20px;
+  text-align: left;
   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto-imagen {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
 }
 
 .producto:hover {
@@ -110,12 +120,48 @@
   margin-bottom: 40px; 
 }
 
+.contenedor-nosotros,
+.contenedor-contacto {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .texto-nosotros {
   max-width: 800px; 
   margin: 0 auto;
   font-size: 1.1rem;
   color: #333333; 
   line-height: 1.6; 
+}
+
+.tarjetas-nosotros,
+.tarjetas-contacto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tarjeta-info,
+.tarjeta-contacto {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 4px 12px rgba(0, 76, 128, 0.08);
+  border: 1px solid rgba(0, 122, 204, 0.08);
+  text-align: left;
+}
+
+.tarjeta-titulo {
+  font-size: 1.1rem;
+  color: #004c80;
+  margin-bottom: 10px;
+}
+
+.tarjeta-texto {
+  font-size: 0.98rem;
+  color: #333333;
+  line-height: 1.6;
 }
 
 
@@ -132,6 +178,10 @@
   font-size: 1rem;
   color: #004c80; 
   line-height: 1.5;
+}
+
+.seccion-contacto .tarjeta-contacto {
+  background: #fdfefe;
 }
 
 
